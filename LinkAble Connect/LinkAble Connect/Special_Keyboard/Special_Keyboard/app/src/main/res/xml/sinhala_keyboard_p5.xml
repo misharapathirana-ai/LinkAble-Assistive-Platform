@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="100%p"
+    android:keyHeight="82dp"
+    android:horizontalGap="0dp"
+    android:verticalGap="6dp">
+
+    <Row>
+        <Key android:codes="-9999" android:keyLabel="No keys" />
+    </Row>
+
+    <Row android:horizontalGap="0dp">
+        <Key android:codes="-9004" android:keyLabel="EN" android:keyWidth="12%p" />
+        <Key android:codes="-9002" android:keyLabel="◀" android:keyWidth="10%p" />
+        <Key android:codes="-9001" android:keyLabel="▶" android:keyWidth="10%p" />
+        <Key android:codes="32" android:keyLabel="Space" android:keyWidth="38%p" />
+        <Key android:codes="10" android:keyLabel="↵" android:keyWidth="10%p" />
+        <Key android:codes="-1000" android:keyLabel="✓" android:keyWidth="10%p" />
+        <Key
+            android:codes="-5"
+            android:keyLabel="⌫"
+            android:keyWidth="10%p"
+            android:isRepeatable="true" />
+    </Row>
+
+</Keyboard>

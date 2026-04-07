@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12.5%p"
+    android:keyHeight="72dp"
+    android:horizontalGap="0dp"
+    android:verticalGap="0dp">
+
+    <Row>
+        <Key android:codes="-5017" android:keyIcon="@drawable/slsl_17" />
+        <Key android:codes="-5018" android:keyIcon="@drawable/slsl_18" />
+        <Key android:codes="-5019" android:keyIcon="@drawable/slsl_19" />
+        <Key android:codes="-5020" android:keyIcon="@drawable/slsl_20" />
+        <Key android:codes="-5021" android:keyIcon="@drawable/slsl_21" />
+        <Key android:codes="-5022" android:keyIcon="@drawable/slsl_22" />
+        <Key android:codes="-5023" android:keyIcon="@drawable/slsl_23" />
+        <Key android:codes="-5024" android:keyIcon="@drawable/slsl_24" />
+    </Row>
+
+    <Row>
+        <Key android:codes="-5025" android:keyIcon="@drawable/slsl_25" />
+        <Key android:codes="-5026" android:keyIcon="@drawable/slsl_26" />
+        <Key android:codes="-5027" android:keyIcon="@drawable/slsl_27" />
+        <Key android:codes="-5028" android:keyIcon="@drawable/slsl_28" />
+        <Key android:codes="-5029" android:keyIcon="@drawable/slsl_29" />
+        <Key android:codes="-5030" android:keyIcon="@drawable/slsl_30" />
+        <Key android:codes="-5031" android:keyIcon="@drawable/slsl_31" />
+        <Key android:codes="-5032" android:keyIcon="@drawable/slsl_32" />
+    </Row>
+</Keyboard>

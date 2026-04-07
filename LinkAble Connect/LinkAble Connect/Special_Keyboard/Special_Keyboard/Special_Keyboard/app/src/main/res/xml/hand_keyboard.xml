@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="62dp"
+    android:horizontalGap="0dp"
+    android:verticalGap="6dp">
+
+    <!-- Row 1: A - J (10 keys) -->
+    <Row>
+        <Key android:codes="-3001" android:keyIcon="@drawable/ssl_a"/>
+        <Key android:codes="-3002" android:keyIcon="@drawable/ssl_b"/>
+        <Key android:codes="-3003" android:keyIcon="@drawable/ssl_c"/>
+        <Key android:codes="-3004" android:keyIcon="@drawable/ssl_d"/>
+        <Key android:codes="-3005" android:keyIcon="@drawable/ssl_e"/>
+        <Key android:codes="-3006" android:keyIcon="@drawable/ssl_f"/>
+        <Key android:codes="-3007" android:keyIcon="@drawable/ssl_g"/>
+        <Key android:codes="-3008" android:keyIcon="@drawable/ssl_h"/>
+        <Key android:codes="-3009" android:keyIcon="@drawable/ssl_i"/>
+        <Key android:codes="-3010" android:keyIcon="@drawable/ssl_j"/>
+    </Row>
+
+    <!-- Row 2: K - T (10 keys) -->
+    <Row>
+        <Key android:codes="-3011" android:keyIcon="@drawable/ssl_k"/>
+        <Key android:codes="-3012" android:keyIcon="@drawable/ssl_l"/>
+        <Key android:codes="-3013" android:keyIcon="@drawable/ssl_m"/>
+        <Key android:codes="-3014" android:keyIcon="@drawable/ssl_n"/>
+        <Key android:codes="-3015" android:keyIcon="@drawable/ssl_o"/>
+        <Key android:codes="-3016" android:keyIcon="@drawable/ssl_p"/>
+        <Key android:codes="-3017" android:keyIcon="@drawable/ssl_q"/>
+        <Key android:codes="-3018" android:keyIcon="@drawable/ssl_r"/>
+        <Key android:codes="-3019" android:keyIcon="@drawable/ssl_s"/>
+        <Key android:codes="-3020" android:keyIcon="@drawable/ssl_t"/>
+    </Row>
+
+    <!-- Row 3: U - Z + Backspace (balanced to 100% width) -->
+    <Row>
+        <Key android:codes="-3021" android:keyIcon="@drawable/ssl_u" android:keyWidth="12%p"/>
+        <Key android:codes="-3022" android:keyIcon="@drawable/ssl_v" android:keyWidth="12%p"/>
+        <Key android:codes="-3023" android:keyIcon="@drawable/ssl_w" android:keyWidth="12%p"/>
+        <Key android:codes="-3024" android:keyIcon="@drawable/ssl_x" android:keyWidth="12%p"/>
+        <Key android:codes="-3025" android:keyIcon="@drawable/ssl_y" android:keyWidth="12%p"/>
+        <Key android:codes="-3026" android:keyIcon="@drawable/ssl_z" android:keyWidth="12%p"/>
+
+        <Key
+            android:codes="-5"
+            android:keyLabel="⌫"
+            android:keyWidth="28%p"
+            android:isRepeatable="true"/>
+    </Row>
+
+    <!-- Row 4: Space + Enter + Done (100% width, cleaner look) -->
+    <Row>
+        <!-- Keep label as blank so it looks clean -->
+        <Key android:codes="32" android:keyLabel=" " android:keyWidth="60%p"/>
+        <Key android:codes="10" android:keyLabel="↵" android:keyWidth="20%p"/>
+        <Key android:codes="-1000" android:keyLabel="✓" android:keyWidth="20%p"/>
+    </Row>
+
+</Keyboard>

@@ -1,0 +1,7 @@
+node_modules/
+.gradle/
+build/
+.idea/
+__MACOSX/
+.DS_Store
+*.log
